@@ -1,0 +1,18 @@
+1. initialize master 
+   java -jar Master.jar socket://localhost:1111
+2. initialize server
+   java -jar Server.jar socket://localhost:2222
+3. index:
+   java -jar Client.jar -index -f filename -d annotation_index
+4. search:
+	keyword search   java -jar Client.jar -search -keyword -s urlencoded_str -d annoatation_index -k k
+	document search  java -jar Client.jar -search -document -f file -d annoatation_index -k k
+
+
+
+for eclipse program:
+-search -document -f “12.html" -d annotation_index -k 5
+
+-index -f annotation_dataset_0.txt -d annotation_index
+
+-index -id 3420 -d annotation_index -textstring "Hawker Centres are frequently visited by health inspectors, which means they are reasonably clean and eating in them should not be a problem at all... The atmosphere, obviously, is unpretentious and there is nothing much in the way of glitzy décor or"

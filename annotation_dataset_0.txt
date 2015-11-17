@@ -1,0 +1,12 @@
+0
+MapReduceMapReduce is a style of computing that has been implemented in several sys-tems, including Google’s internal implementation (simply called MapReduce)and the popular open-source implementation Hadoop which can be obtained,along with the HDFS ﬁle
+1
+Multiplication by MapReduceSuppose we have an n ×n matrix M, whose element in row i and column j willbe denoted mij. Suppose we also have a vector v of length n, whose jth elementis vj. Then the matrix-vector product is the vector x of length n, who’s
+2
+There are several distributed ﬁle systems of the type we have describedthat are used in practice. Among these:1. The Google File System (GFS), the original of the class.2. Hadoop Distributed File System (HDFS), an open-source DFS usedwith Hadoop, an
+3
+are several standard operations on rela tio ns, often referred to as re-lational algebra, that are used to implement queries. The queries themselvesusually are written in SQL. The relational-algebra operations we shall discussare:1. Selection: Apply a cond
+4
+MapReduce is a style of computing that has been implemented in several sys-tems, including Google’s internal implementation (simply called MapReduce)and the popular open-source implementation Hadoop which can be obtained,along with the HDFS ﬁle system from
+5
+and the NewSoftware StackModern data-mining applications, often ca lled “big-data” analysis, require usto manage immense amounts of data quickly. In many of these applications, thedata is extremely regular, and there is ample opportunity to exploit
